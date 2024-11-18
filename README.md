@@ -1,6 +1,6 @@
 ## ActiveDirectory.Core
 [![Build Status](https://travis-ci.com/FewBox/ActiveDirectory.Core.svg?branch=master)](https://travis-ci.com/FewBox/ActiveDirectory.Core)
-[![Nuget Status](https://img.shields.io/nuget/v/FewBox.ActiveDirectory.Core.svg)](https://www.nuget.org/packages/FewBox.ActiveDirectory.Core/)
+[![Nuget Status](https://img.shields.io/nuget/v/FewBox.Core.ActiveDirectory.svg)](https://www.nuget.org/packages/FewBox.Core.ActiveDirectory/)
 
 .Net Core Active Directory Lib.
 > Start from 2010 (https://landpyactivedirectory.codeplex.com/), which will help you to manage Active Directory(LDAP protocol) with out complex filter syntax!

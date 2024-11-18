@@ -4,6 +4,6 @@ dotnet: 2.1.300
 install:
   - dotnet restore
 script:
-  - dotnet pack -c Release $TRAVIS_BUILD_DIR/FewBox.ActiveDirectory.Core/FewBox.ActiveDirectory.Core.csproj
+  - dotnet pack -c Release $TRAVIS_BUILD_DIR/FewBox.Core.ActiveDirectory/FewBox.Core.ActiveDirectory.csproj
 after_success:
-  - dotnet nuget push $TRAVIS_BUILD_DIR/FewBox.ActiveDirectory.Core/bin/Release/FewBox.ActiveDirectory.Core.*.nupkg -k $NUGET_KEY -s https://api.nuget.org/v3/index.json
+  - dotnet nuget push $TRAVIS_BUILD_DIR/FewBox.Core.ActiveDirectory/bin/Release/FewBox.Core.ActiveDirectory.*.nupkg -k $NUGET_KEY -s https://api.nuget.org/v3/index.json
